@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar , footer{
+  background: #2C3E50;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.end{
+  background: #212529;
+}
+
+header, .about{
+  background-color: #1ABC9C;
+}
+
+.home-icon{
+  position: relative;
+}
+
+
+.home-icon::after{
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: white;
+}
+.home-icon::before{
+  position: absolute;
+  content: "";
+  top: 30%;
+  right: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: white;
+}
+
+
+.about-icon{
+  position: relative;
+}
+
+
+.about-icon::after{
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: white;
+}
+.about-icon::before{
+  position: absolute;
+  content: "";
+  top: 30%;
+  right: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: white;
+}
+
+.contact, .portfolio{
+  background-color: white;
+}
+
+.contact-icon{
+  position: relative;
+}
+.contact-icon::after{
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: #2C3E50;
+}
+.contact-icon::before{
+  position: absolute;
+  content: "";
+  top: 30%;
+  right: 188%;
+  height: 4px;
+  width: 522%;
+  background-color: #2C3E50;
+}
+
+
+.btn{
+  background-color: #1ABC9C;
+}
+
+.navbar-btn{
+   background-color: #2C3E50 
+}
+
+.navbar-btn:hover { background-color:#1ABC9C; }
+
+.home-btn{
+  background-color: #2C3E50 
+}
+.home-btn:hover { background-color:#1ABC9C; }
+
+
+.photo{
+  width: 100%;
+  border-radius: 5px ;
+}
+
+.portfolio-item{
+  position: relative;
+}
+.plus{
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1ABC9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all .0.5s;
+}
+.portfolio-item:hover .plus{
+opacity: 1;
 }
