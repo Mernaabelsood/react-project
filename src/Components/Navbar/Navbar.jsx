@@ -6,7 +6,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg py-4">
                 <div className="container">
-                    <button className='home-btn'> <Link className="navbar-brand text-white fs-3" to="/">START FRAMEWORK</Link></button>
+                    <button className='home-btn'> <Link className="navbar-brand text-white fs-3" to="">START FRAMEWORK</Link></button>
                     
                    
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
